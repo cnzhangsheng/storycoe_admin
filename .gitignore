@@ -1,67 +1,44 @@
-# Flutter/Dart/Pub related
-**/doc/api/
-.dart_tool/
-.flutter-plugins
-.flutter-plugins-dependencies
-.packages
-.pub-cache/
-.pub/
-build/
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 
-# Flutter web specific
-lib/generated_plugin_registrant.dart
-
-# IDE related
-.idea/
-.vscode/
-*.iml
-*.swp
-*.swo
-*~
-
-# Android/Xcode related
-**/android/**/gradle-wrapper.jar
-**/android/.gradle
-**/android/captures/
-**/android/gradlew
-**/android/gradlew.bat
-**/android/local.properties
-**/android/**/GeneratedPluginRegistrant.java
-**/ios/.symlinks/
-**/ios/Flutter/Flutter.framework
-**/ios/Flutter/Flutter.podspec
-**/ios/Flutter/Generated.xcconfig
-**/ios/Flutter/app.flx
-**/ios/Flutter/app.zip
-**/ios/Flutter/flutter_assets/
-**/ios/ServiceDefinitions.json
-**/ios/Runner/GeneratedPluginRegistrant.*
-
-# macOS
-.DS_Store
-*.xcworkspace/
-
-# Web related
-lib/generated_plugin_registrant.dart
-
-# Coverage
-coverage/
-
-# Exceptions
-!**/ios/**/default.mode.manifest
-!**/ios/**/default.mode.hints
-!**/ios/**/default.mode.mark
-
-# Node/Vue related (keep existing)
-node_modules
-dist
+# Build output
+dist/
+dist-ssr/
 *.local
+
+# Editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
 .env
 .env.local
+.env.*.local
 
-# Secrets
-*.jks
-*.p8
-*.p12
-*.key
-*.env.production
+# Logs
+logs/
+*.log
+
+# Cache
+.cache/
+.temp/
+
+# TypeScript
+*.tsbuildinfo
+
+# Test
+coverage/
+.nyc_output/
